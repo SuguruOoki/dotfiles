@@ -1,0 +1,1 @@
+/Users/suguruoki/.zprezto/runcoms/zprofile
