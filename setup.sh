@@ -42,7 +42,8 @@ done
 
 # この辺りからzshとpreztoのシンボリックリンク
 # 上記のファイル群をdotfilesにシンボリックリンクを貼って処理する
-DOT_FILES=(.zshrc .zprofile .zshenv .zpreztorc .vimrc)
+# .vimrcはまだ入れていない
+DOT_FILES=(.zshrc .zprofile .zshenv .zpreztorc)
 for file in ${DOT_FILES[@]}
 do
     ln -s $HOME/dotfiles/$file $HOME/$file;
